@@ -1,3 +1,3 @@
-export default function Inicio() {
-  return <h1>Olá Mundo!</h1>;
-}
+import { Inicio } from './Inicio';
+
+export default Inicio;

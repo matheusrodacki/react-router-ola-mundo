@@ -1,3 +1,3 @@
-export default function SobreMim() {
-  return <h1>Sobre Mim</h1>;
-}
+import { SobreMim } from './SobreMim';
+
+export default SobreMim;
