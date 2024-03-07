@@ -5,6 +5,7 @@ import SobreMim from './pages/SobreMim';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Apresentacao from 'components/Apresentacao';
 import Post from 'pages/Post';
+import NaoEncontrado from 'pages/NaoEncontrado';
 
 function AppRoutes() {
   return (
@@ -17,7 +18,7 @@ function AppRoutes() {
           <Route path='/sobremim' element={<SobreMim />} />
           <Route path='/posts/:id' element={<Post />} />
         </Route>
-        <Route path='*' element={<h2>404: Página não encontrada :( </h2>} />
+        <Route path='*' element={<NaoEncontrado />} />
       </Routes>
 
       <Rodape />

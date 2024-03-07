@@ -7,7 +7,7 @@ export function Banner() {
       <div>
         <h1 className={styles.titulo}>Olá, Terráqueos!</h1>
         <p className={styles.paragrafo}>
-          Boas vindas pessoal! Eu sou Matheus e gostaria de compartilhar com vocês alguma maluquices...
+          Boas vindas pessoal! Eu sou Matheus e gostaria de compartilhar com vocês algumas maluquices...
         </p>
       </div>
       <div className={styles.imagens}>
