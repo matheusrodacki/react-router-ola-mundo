@@ -6,10 +6,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Apresentacao from 'components/Apresentacao';
 import Post from 'pages/Post';
 import NaoEncontrado from 'pages/NaoEncontrado';
+import ScrollToTop from 'components/ScrollToTop';
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
 
       <Routes>
